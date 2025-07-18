@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+:root {
+    --container-width: 90%;
+    --main-color: #237578;
+}
+
+@media (min-width: 641px) {
+    :root {
+        --container-width: 600px;
+        .container {
+            grid-template-columns: 1fr 4fr;
+        }
+
+        .sidebar {
+            display: inline-block;
+        }
+    }
+}
+
+@media (min-width: 1025px) {
+    :root {
+        --container-width: 1000px;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Gothic A1", sans-serif;
+}
+
+.name {
+    margin-bottom: 100px;
+    display: inline-block;
+}
+
+.name a {
+    font-size: 24px;
+    color: var(--main-color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.container {
+    width: var(--container-width);
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 50px;
+}
+
+.sidebar {
+    display: none;
+    width: calc((var(--container-width) - 50px) * 0.2);
+    /* position: fixed; */
+    /* background-color: gray; */
+    position: fixed;
+    /* top: 100px; */
+    height: 100vh;
+}
+
+/* .siderbar-content {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    height: 100%
+} */
+
+.main {
+    /* margin-left: 20%; */
+    display: inline-block;
+    /* width: calc(80% - 10px); */
+    /* background-color: lightgray; */
+}
+
+/* section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+} */
+
+nav {
+    width: 100%;
+}
+
+nav ol {
+    /* list-style-type: decimal-leading-zero; */
+    font-size: 18px;
+    list-style: none;
+    padding-left: 1em;
+    margin: 0;
+}
+
+nav li {
+    margin-bottom: 20px;
+    width: fit-content;
+    counter-increment: item;
+    padding-left: 2em;
+    position: relative;
+    counter-increment: item;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+nav li::before {
+    content: "0" counter(item) ".";
+    position: absolute;
+    left: 0;
+}
+
+nav li::after {
+    position: absolute;
+    content: "";
+    background: black;
+    bottom: 0;
+    right: 0;
+    height: 1.5px;
+    width: 0%;
+    transition: 400ms ease-in-out;
+}
+
+nav li:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.divider {
+    text-align: right;
+    height: 24px;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.divider p {
+    margin: 0;
+}
+
+.intro h1 {
+    color: var(--main-color);
+    grid-column: 1 / -1;
+}
+
+.intro p {
+    grid-column: 1 / -1;
+}
+
+h1:target {
+    color:  violet;
+}
