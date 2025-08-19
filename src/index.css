@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+body {
+  background-color: var(--color-neutral-50);
+  font-family: "Gothic A1", sans-serif;
+  @apply text-gray-800;
+}
+
+a.link {
+  @apply relative inline-block overflow-hidden;
+
+}
+
+a.link span {
+  @apply absolute bottom-0 right-0 w-0 h-0.5 bg-gray-800 group-hover:w-full group-hover:left-0 transition-all duration-400 ease-out;
+}
