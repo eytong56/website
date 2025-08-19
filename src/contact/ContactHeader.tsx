@@ -1,4 +1,5 @@
-import contacts from "./data/contacts";
+import contacts from "../data/contacts";
+import { ArrowUpRight } from "lucide-react";
 
 function ContactHeader() {
   const contactItems = contacts.map((contact) => {
@@ -7,9 +8,10 @@ function ContactHeader() {
         key={contact.name}
         href={contact.link}
         target="_blank"
-        className="font-medium text-gray-800 hover:text-gray-500 transition-colors underline underline-offset-1"
+        className="font-medium link group"
       >
-        {contact.name}
+        {contact.name} <ArrowUpRight className="inline w-5 h-5"/>
+        <span />
       </a>
     );
   });

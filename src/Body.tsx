@@ -1,9 +1,10 @@
-import ContactHeader from "./ContactHeader";
+import ContactHeader from "./contact/ContactHeader";
 import Section from "./Section";
-import Intro from "./Intro";
-import About from "./About";
-import Contact from "./Contact";
+import Intro from "./about/Intro";
+import About from "./about/About";
 import Projects from "./projects/Projects";
+import Creative from "./Creative";
+import Contact from "./contact/Contact";
 
 function Body() {
   return (
@@ -11,13 +12,16 @@ function Body() {
       <ContactHeader />
       <div>
         <Intro />
-        <Section title="about">
+        <Section title="about" id="about">
           <About />
         </Section>
-        <Section title="projects" >
-        <Projects />
+        <Section title="projects" id="projects">
+          <Projects />
         </Section>
-        <Section title="contact me">
+        <Section title="creative" id="creative">
+          <Creative />
+        </Section>
+        <Section title="contact me" id="contact">
           <Contact />
         </Section>
       </div>

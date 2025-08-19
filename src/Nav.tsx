@@ -6,15 +6,19 @@ interface Section {
 const sections : Section[] = [
   {
     title: "about",
-    href: "#",
+    href: "#about",
   },
   {
     title: "projects",
-    href: "#",
+    href: "#projects",
+  },
+  {
+    title: "creative",
+    href: "#creative",
   },
   {
     title: "contact",
-    href: "#",
+    href: "#contact",
   },
 ];
 
@@ -32,7 +36,7 @@ function Nav() {
     );
   });
   return (
-    <div className="relative w-60 min-w-30">
+    <div className="hidden relative md:block w-60 min-w-30">
       <div className="sticky top-12">
         <h1 className="text-3xl font-bold text-emerald-700 tracking-tight mb-24">
           <a href="#">

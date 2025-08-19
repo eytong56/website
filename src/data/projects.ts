@@ -4,7 +4,7 @@ export interface Project {
   date: string;
   details: string[];
   link?: string;
-  linkName?: string
+  linkName?: string;
   techUsed: string;
 }
 
@@ -20,7 +20,8 @@ const projects: Project[] = [
     ],
     link: "https://github.com/eytong56/task-app",
     linkName: "github repo",
-    techUsed: "react, node.js, express.js, RESTful APIs, postgresql, tailwind css, figma" 
+    techUsed:
+      "react, node.js, express.js, RESTful APIs, postgresql, tailwind css, figma",
   },
   {
     title: "Raft Consensus Algorithm",
@@ -31,7 +32,7 @@ const projects: Project[] = [
       "Designed heartbeat and leader election mechanisms to handle node failures, network partitions, and message losses.",
       "Delivered 100% consistency across replicas and thread-safe concurrent operations with <5-second leader re-elections using Go channels, mutexes, and goroutines.",
     ],
-    techUsed: "go (goroutines, mutexes, channels)",
+    techUsed: "go (goroutines, mutexes, channels), git",
   },
   {
     title: '"Interviewing You & Me!" Museum Exhibit',
@@ -43,11 +44,11 @@ const projects: Project[] = [
       "Conducted user research and prototype testing through observations and exit surveys, and analyzed data through affinity diagramming and data visualization.",
     ],
     link: "https://drive.google.com/file/d/1yFpwp7BoS45ZG9L80E5TtFdEdWEff-gx/view?usp=sharing",
-    linkName: "Design Case",
+    linkName: "design case",
     techUsed: "python",
   },
   {
-    title: '"Personalate" Social App',
+    title: '"Personalate" Social Application',
     subtitle: "HackCMU 2022",
     date: "sept 2022",
     details: [
@@ -56,8 +57,20 @@ const projects: Project[] = [
       "Won the Aptiv Sponsored Prize for “Best Hack for a More Connected World.",
     ],
     link: "https://docs.google.com/presentation/d/1_1kVrmnP_gW4BS1sxEE3zkYLk3F6pprJv_8Bs2Nz354/edit?usp=sharing",
-    linkName: "Demo Presentation",
+    linkName: "demo presentation",
     techUsed: "unity, c#, git, adobe illustrator",
+  },
+  {
+    title: "CMU Japanese Student Association Website",
+    subtitle: "Personal Project",
+    date: "aug 2022 - sept 2022",
+    details: [
+      "Developed the official website for the Japanese Student Association at Carnegie Mellon University (www.cmujsa.com).",
+      "Converted Figma mockups to responsive website using HTML, CSS, JavaScript, and Bootstrap.",
+    ],
+    link: "https://github.com/cmujsa/cmujsa-web",
+    linkName: "github repo",
+    techUsed: "html, css, javascript, bootstrap library, git",
   },
 ];
 
