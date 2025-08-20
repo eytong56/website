@@ -1,35 +1,9 @@
-interface Section {
-  title: string,
-  href: string,
-}
-
-const sections : Section[] = [
-  {
-    title: "about",
-    href: "#about",
-  },
-  {
-    title: "projects",
-    href: "#projects",
-  },
-  {
-    title: "creative",
-    href: "#creative",
-  },
-  {
-    title: "contact",
-    href: "#contact",
-  },
-];
+import sections from "./data/nav";
 
 function Nav() {
   const navItems = sections.map((section) => {
     return (
-      <a
-        key={section.title}
-        href={section.href}
-        className="text-xl link group"
-      >
+      <a key={section.title} href={section.href} className="text-xl link group">
         {section.title}
         <span />
       </a>

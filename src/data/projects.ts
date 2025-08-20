@@ -45,7 +45,7 @@ const projects: Project[] = [
     ],
     link: "https://drive.google.com/file/d/1yFpwp7BoS45ZG9L80E5TtFdEdWEff-gx/view?usp=sharing",
     linkName: "design case",
-    techUsed: "python",
+    techUsed: "python, chatgpt api",
   },
   {
     title: '"Personalate" Social Application',
@@ -54,7 +54,7 @@ const projects: Project[] = [
     details: [
       "Created a social app prototype in a team of 4 that analyzes personality quizzes to strengthen friendships.",
       "Utilized Unity's 2D suite with Unity C# for app functionality and Adobe Illustrator for UI design.",
-      "Won the Aptiv Sponsored Prize for “Best Hack for a More Connected World.",
+      'Won the Aptiv Sponsored Prize for “Best Hack for a More Connected World".',
     ],
     link: "https://docs.google.com/presentation/d/1_1kVrmnP_gW4BS1sxEE3zkYLk3F6pprJv_8Bs2Nz354/edit?usp=sharing",
     linkName: "demo presentation",
@@ -67,6 +67,7 @@ const projects: Project[] = [
     details: [
       "Developed the official website for the Japanese Student Association at Carnegie Mellon University (www.cmujsa.com).",
       "Converted Figma mockups to responsive website using HTML, CSS, JavaScript, and Bootstrap.",
+      "Designed event page to promote university-wide cultural event, leading to over 140 ticket sales."
     ],
     link: "https://github.com/cmujsa/cmujsa-web",
     linkName: "github repo",

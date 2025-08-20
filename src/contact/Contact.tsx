@@ -9,9 +9,9 @@ function Contact() {
           key={contact.name}
           href={contact.link}
           target="_blank"
-          className="font-semibold link group"
+          className="link group font-medium"
         >
-          {contact.name} <ArrowUpRight className="inline w-5 h-5"/>
+          {contact.name} <ArrowUpRight className="inline w-5 h-5 relative -top-0.5"/>
           <span />
         </a>
       </div>
