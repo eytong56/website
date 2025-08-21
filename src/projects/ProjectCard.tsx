@@ -2,7 +2,6 @@ import type { Project } from "../data/projects";
 import { ArrowUpRight } from "lucide-react";
 
 function ProjectCard({ project }: { project: Project }) {
-  console.log(project);
   const detailItems = project.details.map((detail: string) => {
     return <div>{detail}</div>;
   });
