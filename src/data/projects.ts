@@ -28,9 +28,9 @@ const techProjects: Project[] = [
     subtitle: "Personal Project",
     date: "aug 2025 - ongoing",
     details: [
-      "Developed a full-stack web application using React with Tailwind CSS frontend and Node.js / Express.js / PostgreSQL backend for day-by-day task organization.",
-      "Implemented RESTful APIs with Express.js to handle CRUD operations and filter tasks by date.",
-      "Built responsive React frontend from Figma designs with clickable status icon interface and date navigation.",
+      "Developed a full-stack web application using React with Tailwind CSS frontend and Node.js / Express.js / PostgreSQL backend.",
+      "Implemented secure RESTful APIs with Express.js to handle CRUD operations and JSON Web Token (JWT) authentication and authorization.",
+      "Built responsive React frontend based on Figma designs with interactive status icons and date navigation.",
     ],
     link: "https://github.com/eytong56/task-app",
     linkName: "github repo",
@@ -110,7 +110,7 @@ const designProjects: Project[] = [
     date: "nov 2024 - dec 2024",
     details: [
       "Designed a print magazine article and an online magazine article page based on an existing story.",
-      "Explored palettes and mood boards to determine the visual direction",
+      "Explored palettes and mood boards to determine the visual direction.",
       "Focused on utilizing grid, composition, long-form typesetting, and other design principles learned across the semester.",
     ],
     imageSource: magazineSpread,
@@ -148,7 +148,7 @@ const filmProjects: Project[] = [
   {
     title: 'SDC Ready? "SDC BUILD!"',
     subtitle: "Introduction to Film Production Course",
-    date: "sept 2024 - oct 2024",
+    date: "feb 2024 - may 2024",
     details: [
       "Directed, produced, filmed, and edited a short documentary film following the members of Student Dormitory Council (SDC) Booth during Carnegie Mellon University's 2024 Spring Carnival.",
       "Shot multiple interviews with members of SDC Booth, and combined footage with b-roll filmed throughout the event.",
