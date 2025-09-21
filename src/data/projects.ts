@@ -130,18 +130,18 @@ const designProjects: Project[] = [
     imageAlt: "Hoodie logo for 15-150",
     techUsed: "procreate (illustration), adobe illlustrator (vectorization)",
   },
-  {
-    title: "Logo Submission for SCS Day 2025",
-    subtitle: "SCS Day 2025",
-    date: "jan 2025",
-    details: [
-      "Illustrated a logo design for the SCS Day 2025 Logo Competition.",
-      "Won honorable mention and logo was featured on stickers for the event.",
-    ],
-    imageSource: scsDayLogo,
-    imageAlt: "Logo submission for SCS Day 2025",
-    techUsed: "procreate",
-  },
+  // {
+  //   title: "Logo Submission for SCS Day 2025",
+  //   subtitle: "SCS Day 2025",
+  //   date: "jan 2025",
+  //   details: [
+  //     "Illustrated a logo design for the SCS Day 2025 Logo Competition.",
+  //     "Won honorable mention and logo was featured on stickers for the event.",
+  //   ],
+  //   imageSource: scsDayLogo,
+  //   imageAlt: "Logo submission for SCS Day 2025",
+  //   techUsed: "procreate",
+  // },
 ];
 
 const filmProjects: Project[] = [
@@ -172,34 +172,34 @@ const filmProjects: Project[] = [
     linkName: "film (youtube)",
     techUsed: "adobe premiere pro, camera operation",
   },
-  {
-    title: "Christian Theology",
-    subtitle: "Introduction to Film Production Course",
-    date: "apr 2024",
-    details: [
-      "Wrote and created a short film about a strange man interviewing a Christian theology reader.",
-      "Concentrated on using audio effects to enhance emotions and suspense.",
-    ],
-    imageSource: "https://img.youtube.com/vi/yuabrUB2-58/mqdefault.jpg",
+  // {
+  //   title: "Christian Theology",
+  //   subtitle: "Introduction to Film Production Course",
+  //   date: "apr 2024",
+  //   details: [
+  //     "Wrote and created a short film about a strange man interviewing a Christian theology reader.",
+  //     "Concentrated on using audio effects to enhance emotions and suspense.",
+  //   ],
+  //   imageSource: "https://img.youtube.com/vi/yuabrUB2-58/mqdefault.jpg",
 
-    link: "https://youtu.be/yuabrUB2-58",
-    linkName: "film (youtube)",
-    techUsed: "adobe premiere pro, camera operation, audio recording",
-  },
-  {
-    title: '"Road of Return" by Joy Harjo',
-    subtitle: "Making the Documentary Course",
-    date: "oct 2024",
-    details: [
-      'Edited short film set to the poem "Road of Return" by Joy Harjo.',
-      "Selected metaphorical shots to match the tone and feel of the words.",
-    ],
-    imageSource: "https://img.youtube.com/vi/UsOEsWyHpDo/mqdefault.jpg",
+  //   link: "https://youtu.be/yuabrUB2-58",
+  //   linkName: "film (youtube)",
+  //   techUsed: "adobe premiere pro, camera operation, audio recording",
+  // },
+  // {
+  //   title: '"Road of Return" by Joy Harjo',
+  //   subtitle: "Making the Documentary Course",
+  //   date: "oct 2024",
+  //   details: [
+  //     'Edited short film set to the poem "Road of Return" by Joy Harjo.',
+  //     "Selected metaphorical shots to match the tone and feel of the words.",
+  //   ],
+  //   imageSource: "https://img.youtube.com/vi/UsOEsWyHpDo/mqdefault.jpg",
 
-    link: "https://youtu.be/UsOEsWyHpDo",
-    linkName: "film (youtube)",
-    techUsed: "adobe premiere pro",
-  },
+  //   link: "https://youtu.be/UsOEsWyHpDo",
+  //   linkName: "film (youtube)",
+  //   techUsed: "adobe premiere pro",
+  // },
 ];
 
 const photos: Photo[] = [

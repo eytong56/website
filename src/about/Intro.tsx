@@ -1,9 +1,9 @@
 import { Asterisk } from "lucide-react";
 
 const descs = [
-  "Currently looking for a full-time position as a software engineer and spending my time learning full-stack development!",
-  "Head Teaching Assistant at CMU for 15-150: Principles of Functional Programming for Summer 2024.",
-  "Avid filmmaker, photographer, and designer (see creative).",
+  "Currently seeking intern and full-time opportunities as a software engineer + spending my time learning full-stack development!",
+  "Former Head Teaching Assistant at CMU for 15-150: Principles of Functional Programming (Summer 2024).",
+  "Hobbyist designer, filmmaker, and photographer (see creative).",
 ];
 
 function Intro() {
